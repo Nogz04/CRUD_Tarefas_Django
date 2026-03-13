@@ -1,16 +1,16 @@
 # 📝 Gerenciador de Tarefas Django
 
-Bem-vindo ao projeto **Gerenciador de Tarefas**! Este é um sistema simples, porém poderoso, desenvolvido com o framework Django para gerenciar suas atividades diárias com eficiência e estilo.
+Bem-vindo ao projeto **Gerenciador de Tarefas**! Este é um sistema simples de CRUD utilizando Python Django, onde o usuário pode adicionar, visualizar, editar e remover suas tarefas.
 
 ---
 
 ## 🚀 Funcionalidades
 
-- **✨ Interface Premium**: Design moderno, limpo e responsivo.
+- **✨ Interface**: Design moderno, limpo e responsivo.
 - **📋 Listagem de Tarefas**: Visualize todas as suas tarefas em uma tabela organizada.
 - **➕ Cadastro de Tarefas**: Adicione novas tarefas com nome e descrição.
-- **✏️ Edição Dinâmica**: Atualize informações de tarefas existentes de forma intuitiva.
-- **🗑️ Remoção Segura**: Exclua tarefas que não são mais necessárias.
+- **✏️ Edição de tarefas**: Atualize informações de tarefas existentes de forma intuitiva.
+- **🗑️ Remoção de tarefas**: Exclua tarefas que não são mais necessárias.
 - **🏷️ Status Visual**: Badges coloridos para identificar tarefas Pendentes e Concluídas.
 
 ---
@@ -50,10 +50,10 @@ d:\Python Django\
 ## 🛠️ Tecnologias Utilizadas
 
 - **🐍 Python**: Linguagem de programação principal.
-- **🎸 Django 6.0**: Framework web robusto e escalável.
-- **🎨 CSS3 (Vanilla)**: Design personalizado sem dependências externas.
+- **🎸 Django 6.0**: Framework web.
+- **🎨 HTML5 e CSS3**: Utilizado para criação do frontend e estilização do mesmo.
 - **🗄️ SQLite**: Banco de dados leve e eficiente para desenvolvimento.
-- **🖋️ Google Fonts (Inter)**: Tipografia moderna e legível.
+- **🖋️ Google Fonts**: Tipografia moderna e legível.
 
 ---
 
