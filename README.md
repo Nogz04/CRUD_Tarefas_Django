@@ -38,7 +38,7 @@ d:\Python Django\
 │   ├── urls.py              # Rotas específicas da aplicação
 │   └── views.py             # Lógica de processamento das páginas
 ├── 📂 projeto1\             # Configurações globais do projeto (Settings/URLs)
-├── 📂 venv\                 # Ambiente virtual (Não enviado para o Git)
+├── 📂 venv\                 # Ambiente virtual 
 ├── .gitignore               # Regras de arquivos ignorados pelo Git
 ├── db.sqlite3               # Banco de dados local (SQLite)
 ├── manage.py                # Utilitário de comando do Django
