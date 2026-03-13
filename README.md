@@ -89,6 +89,6 @@ O projeto utiliza um sistema de cores harmônico definido em variáveis CSS:
 
 ---
 
-## ✍️ Autor
+## ✍️ Matheus Nogueira
 
-Documentação gerada para auxiliar no desenvolvimento e manutenção deste projeto de estudos em Python e Django.
+
