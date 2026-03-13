@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Tarefa</title>
+    <link rel="stylesheet" href="{% static 'tarefas/css/style.css' %}">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="card">
+            <h1>Cadastro de Tarefa</h1>
+
+            <form method="post" action="">
+                {% csrf_token %}
+                {{form.as_p}}
+
+                <button type="submit" class="btn btn-primary">Cadastrar</button>
+            </form>
+
+            <div class="text-center mt-4">
+                <a href="{% url 'tarefas:tarefas_home'%}" class="btn-link">Voltar para a lista</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

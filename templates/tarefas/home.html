@@ -1,0 +1,63 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="{% static 'tarefas/css/style.css' %}">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="card">
+            <h1>Minhas Tarefas</h1>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Descrição</th>
+                            <th>Situação</th>
+                            <th>Data de Criação</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for tarefa in tarefas %}
+                        <tr>
+                            <td><strong>{{tarefa.nome}}</strong></td>
+                            <td>{{tarefa.descricao}}</td>
+                            <td>
+                                {% if tarefa.concluida %}
+                                <span class="badge badge-success">Concluído</span>
+                                {% else %}
+                                <span class="badge badge-pending">Pendente</span>
+                                {% endif %}
+                            </td>
+                            <td>{{tarefa.data_criacao|date:"d/m/Y"}}</td>
+                            <td>
+                                <div class="actions">
+                                    <a href="{% url 'tarefas:editar_tarefa' tarefa.id %}"
+                                        class="btn btn-primary">Editar</a>
+                                    <a href="{% url 'tarefas:remover_tarefa' tarefa.id %}"
+                                        class="btn btn-danger">Remover</a>
+                                </div>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="text-center">
+                <a href="{% url 'tarefas:cadastrar_tarefa'%}" class="btn btn-success">Nova Tarefa</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
