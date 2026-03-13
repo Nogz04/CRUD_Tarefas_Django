@@ -6,7 +6,7 @@ Bem-vindo ao projeto **Gerenciador de Tarefas**! Este é um sistema simples de C
 
 ## 🚀 Funcionalidades
 
-- **✨ Interface**: Design moderno, limpo e responsivo.
+- **✨ Interface**: Design moderno e limp.
 - **📋 Listagem de Tarefas**: Visualize todas as suas tarefas em uma tabela organizada.
 - **➕ Cadastro de Tarefas**: Adicione novas tarefas com nome e descrição.
 - **✏️ Edição de tarefas**: Atualize informações de tarefas existentes de forma intuitiva.
