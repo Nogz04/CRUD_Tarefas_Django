@@ -86,9 +86,7 @@ Para acessar as funcionalidades do sistema, utilize as seguintes rotas:
    ```
 
 4. **Acesse no Navegador:**
-   O Django iniciará por padrão em `http://127.0.0.1:8000/`. 
-   > **Importante:** Para ir direto ao menu de tarefas, adicione `/tarefas` ao final da URL: 
-   > **[http://127.0.0.1:8000/tarefas/](http://127.0.0.1:8000/tarefas/)**
+   O Django iniciará por padrão em `http://127.0.0.1:8000/` na tela home. (esse sistema é apenas local)
 
 ---
 
