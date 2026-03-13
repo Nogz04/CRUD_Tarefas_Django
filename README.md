@@ -1,16 +1,16 @@
 # 📝 Gerenciador de Tarefas Django
 
-Bem-vindo ao projeto **Gerenciador de Tarefas**! Este é um sistema simples, porém poderoso, desenvolvido com o framework Django para gerenciar suas atividades diárias com eficiência e estilo.
+Bem-vindo ao projeto **Gerenciador de Tarefas**! Este é um sistema simples de CRUD utilizando Python Django, onde o usuário pode adicionar, visualizar, editar e remover suas tarefas.
 
 ---
 
 ## 🚀 Funcionalidades
 
-- **✨ Interface Premium**: Design moderno, limpo e responsivo.
+- **✨ Interface**: Design moderno, limpo e responsivo.
 - **📋 Listagem de Tarefas**: Visualize todas as suas tarefas em uma tabela organizada.
 - **➕ Cadastro de Tarefas**: Adicione novas tarefas com nome e descrição.
-- **✏️ Edição Dinâmica**: Atualize informações de tarefas existentes de forma intuitiva.
-- **🗑️ Remoção Segura**: Exclua tarefas que não são mais necessárias.
+- **✏️ Edição de tarefas**: Atualize informações de tarefas existentes de forma intuitiva.
+- **🗑️ Remoção de tarefas**: Exclua tarefas que não são mais necessárias.
 - **🏷️ Status Visual**: Badges coloridos para identificar tarefas Pendentes e Concluídas.
 
 ---
@@ -38,7 +38,7 @@ d:\Python Django\
 │   ├── urls.py              # Rotas específicas da aplicação
 │   └── views.py             # Lógica de processamento das páginas
 ├── 📂 projeto1\             # Configurações globais do projeto (Settings/URLs)
-├── 📂 venv\                 # Ambiente virtual (Não enviado para o Git)
+├── 📂 venv\                 # Ambiente virtual 
 ├── .gitignore               # Regras de arquivos ignorados pelo Git
 ├── db.sqlite3               # Banco de dados local (SQLite)
 ├── manage.py                # Utilitário de comando do Django
@@ -50,10 +50,21 @@ d:\Python Django\
 ## 🛠️ Tecnologias Utilizadas
 
 - **🐍 Python**: Linguagem de programação principal.
-- **🎸 Django 6.0**: Framework web robusto e escalável.
-- **🎨 CSS3 (Vanilla)**: Design personalizado sem dependências externas.
+- **🎸 Django 6.0**: Framework web.
+- **🎨 HTML5 e CSS3**: Utilizado para criação do frontend e estilização do mesmo.
 - **🗄️ SQLite**: Banco de dados leve e eficiente para desenvolvimento.
-- **🖋️ Google Fonts (Inter)**: Tipografia moderna e legível.
+- **🖋️ Google Fonts**: Tipografia moderna e legível.
+
+---
+
+## 🔗 Endpoints da Aplicação
+
+Para acessar as funcionalidades do sistema, utilize as seguintes rotas:
+
+- **Menu Principal**: ` `
+- **Cadastrar Tarefa**: `cadastrar/`
+- **Editar Tarefa**: `editar/<id>/`
+- **Remover Tarefa**: `remover/<id>/`
 
 ---
 
@@ -75,7 +86,9 @@ d:\Python Django\
    ```
 
 4. **Acesse no Navegador:**
-   Vá para `http://127.0.0.1:8000/`
+   O Django iniciará por padrão em `http://127.0.0.1:8000/`. 
+   > **Importante:** Para ir direto ao menu de tarefas, adicione `/tarefas` ao final da URL: 
+   > **[http://127.0.0.1:8000/tarefas/](http://127.0.0.1:8000/tarefas/)**
 
 ---
 
@@ -89,6 +102,4 @@ O projeto utiliza um sistema de cores harmônico definido em variáveis CSS:
 
 ---
 
-## ✍️ Autor
-
-Documentação gerada para auxiliar no desenvolvimento e manutenção deste projeto de estudos em Python e Django.
+## ✍️ Matheus Nogueira
