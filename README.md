@@ -57,6 +57,17 @@ d:\Python Django\
 
 ---
 
+## 🔗 Endpoints da Aplicação
+
+Para acessar as funcionalidades do sistema, utilize as seguintes rotas:
+
+- **Menu Principal**: ` `
+- **Cadastrar Tarefa**: `cadastrar/`
+- **Editar Tarefa**: `editar/<id>/`
+- **Remover Tarefa**: `remover/<id>/`
+
+---
+
 ## ⚙️ Como Executar o Projeto
 
 1. **Ativar o Ambiente Virtual:**
@@ -75,7 +86,9 @@ d:\Python Django\
    ```
 
 4. **Acesse no Navegador:**
-   Vá para `http://127.0.0.1:8000/`
+   O Django iniciará por padrão em `http://127.0.0.1:8000/`. 
+   > **Importante:** Para ir direto ao menu de tarefas, adicione `/tarefas` ao final da URL: 
+   > **[http://127.0.0.1:8000/tarefas/](http://127.0.0.1:8000/tarefas/)**
 
 ---
 
@@ -90,5 +103,3 @@ O projeto utiliza um sistema de cores harmônico definido em variáveis CSS:
 ---
 
 ## ✍️ Matheus Nogueira
-
-
